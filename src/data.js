@@ -46,7 +46,7 @@ export const books = [
     url: "https://covers.openlibrary.org/b/id/7737110-L.jpg",
     originalPrice: 70,
     salePrice: 12.5,
-    rating: 5,
+    rating: 3.5,
   },
   {
     id: 7,
