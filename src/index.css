@@ -42,12 +42,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-
-
 ul {
   display: flex;
 }
@@ -119,17 +113,17 @@ button:active {
   justify-content: center;
 }
 
-.nav__link:hover {
-  text-decoration: underline;
-}
-
 .nav__link--primary {
   border: 2px solid #7342d6;
   border-radius: 4px;
 }
 
+.nav__link:hover {
+  text-decoration: underline;
+}
+
 .nav__link--primary:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .nav__icon {
@@ -625,6 +619,8 @@ select {
 
 .book__summary--title {
   margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .book__summary--para {
